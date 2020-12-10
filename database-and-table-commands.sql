@@ -29,4 +29,5 @@ SHOW COLUMNS FROM <tablename>;
 DESC <tablename>;
 
 -- Deleting Tables
+DROP TABLE <tablename>;
 
