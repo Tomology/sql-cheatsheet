@@ -34,7 +34,7 @@ CREATE TABLE <name>
         column_name data_type DEFAULT <default_data>
     );
 
--- Create a table with a PRIMARY KEY (unique id) that auto increments 
+-- Create a table with a PRIMARY KEY (unique id) that auto increments
 CREATE TABLE <name>
     (
         primary_key_column_name INT NOT NULL AUTO_INCREMENT,
