@@ -34,6 +34,15 @@ CREATE TABLE <name>
         column_name data_type DEFAULT <default_data>
     );
 
+-- Create a table with a PRIMARY KEY (unique id) that auto increments 
+CREATE TABLE <name>
+    (
+        primary_key_column_name INT NOT NULL AUTO_INCREMENT,
+        column_name data_type,
+        column_name data_type,
+        PRIMARY KEY (primary_key_column_name)
+    );
+
 -- Show all tables in a database (cli command)
 SHOW TABLES;
 
