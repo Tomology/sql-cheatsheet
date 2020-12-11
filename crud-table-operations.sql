@@ -28,6 +28,9 @@ SELECT column_name1, column_name2 FROM tablename;
 -- Select data from a table that meets specified criteria
 SELECT * FROM tablename WHERE criteria;
 
+-- Select distinct values from a column
+SELECT DISTINCT column_name FROM tablename;
+
 -- Give a column an alias name
 SELECT column_name1 AS alias_name1, column_name2 FROM tablename;
 
