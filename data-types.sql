@@ -13,6 +13,7 @@
     DATE        - YYYY-MM-DD, date with no time
     TIME        - HH:MM:SS, time with no date
     DATETIME    - YYYY-MM-DD HH:MM:SS, Date and Time
+    TIMESTAMP   - YYYY-MM-DD HH:MM:SS, Like DATETIME but lower range of dates
 
 
 
