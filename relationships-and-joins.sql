@@ -54,6 +54,14 @@ SELECT * FROM tablename1
 RIGHT JOIN tablename2
     ON tablename1.primarykey_id = tablename2.foreginkey_id; 
 
+-- Join three or more tables
+SELECT * FROM tablename1
+JOIN tablename2
+    ON tablename1.primarykey_id = tablename2.foreignkey_id
+JOIN tablename3
+    ON tablename3.primarykey_id = tablename2.foreignkey_id;
+
+
 -- Delete Options
 ON DELETE CASCADE   -- If a row is deleted, all rows that reference 
                     -- that row (as a foreign key), will also be 
