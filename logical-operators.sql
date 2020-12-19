@@ -24,4 +24,8 @@
                             ELSE 'result3'
                         END AS desired_name
                     FROM tablename;
+    IFNULL          Allows us to specify an alternate value to present
+                    if the field is NULL.
+                    For example:
+                    SELECT IFNULL(SUM(amount), 0) FROM tablename;
 */
